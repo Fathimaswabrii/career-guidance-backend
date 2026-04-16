@@ -3,7 +3,7 @@
 ## Setup Instructions
 
 1. Clone repo
-git clone <repo-url>
+git clone https://github.com/Fathimaswabrii/career-guidance-backend.git
 
 2. Create virtual environment
 python -m venv venv
