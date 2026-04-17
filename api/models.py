@@ -7,9 +7,11 @@ class User(AbstractUser):
 
 class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
+    name = models.CharField(max_length=100, default="")
     age = models.IntegerField()
     education_level = models.CharField(max_length=50)
-
+    interests = models.TextField(default="[]")  # JSON string of interests
+    skills = models.TextField(default="[]")     # JSON string of skills
 
 class Question(models.Model):
     question = models.TextField()

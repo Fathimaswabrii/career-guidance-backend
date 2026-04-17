@@ -38,10 +38,43 @@ class LoginView(APIView):
             })
         return Response({'error': 'Invalid credentials'})
 
-    # 👤 Create Profile
+    # 👤 Create/Get/Update Profile
 class ProfileView(APIView):
+    permission_classes = [IsAuthenticated]
+    
+    def get(self, request):
+        profile = Profile.objects.filter(user=request.user).first()
+        if profile:
+            serializer = ProfileSerializer(profile)
+            return Response(serializer.data)
+        return Response({"message": "No profile found"})
+    
     def post(self, request):
-        serializer = ProfileSerializer(data=request.data)
+        # Check if profile already exists
+        existing_profile = Profile.objects.filter(user=request.user).first()
+        if existing_profile:
+            # Update existing profile
+            serializer = ProfileSerializer(existing_profile, data=request.data, partial=True, context={'request': request})
+        else:
+            # Create new profile
+            serializer = ProfileSerializer(data=request.data, context={'request': request})
+            
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors)
+    
+    def put(self, request):
+        # Update existing profile
+        existing_profile = Profile.objects.filter(user=request.user).first()
+        if existing_profile:
+            serializer = ProfileSerializer(existing_profile, data=request.data, partial=True, context={'request': request})
+            if serializer.is_valid():
+                serializer.save()
+                return Response(serializer.data)
+            return Response(serializer.errors)
+        # If profile doesn't exist, create it instead of failing
+        serializer = ProfileSerializer(data=request.data, context={'request': request})
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data)
@@ -159,7 +192,12 @@ class ResultView(APIView):
             "match": round(result.match_percentage, 2),
             "linguistic": result.linguistic,
             "logical": result.logical,
-            "spatial": result.spatial
+            "spatial": result.spatial,
+            "interpersonal": result.interpersonal,
+            "intrapersonal": result.intrapersonal,
+            "naturalist": result.naturalist,
+            "bodily": result.bodily,
+            "musical": result.musical
         })
         
     
@@ -193,28 +231,6 @@ class StreamRecommendation(APIView):
 
         return Response({"results": matched})
     
-# class CourseRecommendation(APIView):
-#     permission_classes = [IsAuthenticated]
-
-#     def post(self, request):
-#         career = request.data.get('career')
-
-#         courses_data = {
-#             "Doctor": ["MBBS", "BDS", "BAMS"],
-#             "Engineer": ["B.Tech", "BE", "Diploma"],
-#             "Teacher": ["B.Ed", "BA", "MA"],
-#             "Data Scientist": ["BSc Computer Science", "MSc Data Science"],
-#             "Physical Therapist": ["BPT", "MPT"],
-#             "Lawyer": ["LLB", "BA LLB"],
-#         }
-
-#         courses = courses_data.get(career, ["No courses found"])
-
-#         return Response({
-#             "career": career,
-#             "recommended_courses": courses
-#         })
-
 class CourseRecommendation(APIView):
     permission_classes = [IsAuthenticated]
 
