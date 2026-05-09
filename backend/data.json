@@ -1,0 +1,594 @@
+[
+{
+  "model": "api.question",
+  "pk": 1,
+  "fields": {
+    "question": "I enjoy reading books or articles",
+    "category": "linguistic"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 2,
+  "fields": {
+    "question": "I can express my ideas clearly in words",
+    "category": "linguistic"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 3,
+  "fields": {
+    "question": "I like writing essays or stories",
+    "category": "linguistic"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 4,
+  "fields": {
+    "question": "I enjoy learning new languages",
+    "category": "linguistic"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 5,
+  "fields": {
+    "question": "I am good at explaining concepts to others",
+    "category": "linguistic"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 6,
+  "fields": {
+    "question": "I enjoy solving puzzles and logical problems",
+    "category": "logical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 7,
+  "fields": {
+    "question": "I like mathematics and calculations",
+    "category": "logical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 8,
+  "fields": {
+    "question": "I can easily analyze patterns",
+    "category": "logical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 9,
+  "fields": {
+    "question": "I enjoy problem-solving tasks",
+    "category": "logical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 10,
+  "fields": {
+    "question": "I think logically before making decisions",
+    "category": "logical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 11,
+  "fields": {
+    "question": "I can easily visualize objects in my mind",
+    "category": "spatial"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 12,
+  "fields": {
+    "question": "I enjoy drawing or designing",
+    "category": "spatial"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 13,
+  "fields": {
+    "question": "I understand diagrams and maps easily",
+    "category": "spatial"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 14,
+  "fields": {
+    "question": "I like working with shapes and structures",
+    "category": "spatial"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 15,
+  "fields": {
+    "question": "I enjoy creative visual tasks",
+    "category": "spatial"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 16,
+  "fields": {
+    "question": "I like working in teams",
+    "category": "interpersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 17,
+  "fields": {
+    "question": "I communicate well with others",
+    "category": "interpersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 18,
+  "fields": {
+    "question": "I enjoy helping people solve problems",
+    "category": "interpersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 19,
+  "fields": {
+    "question": "I understand others’ emotions easily",
+    "category": "interpersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 20,
+  "fields": {
+    "question": "I am comfortable speaking in groups",
+    "category": "interpersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 21,
+  "fields": {
+    "question": "I understand my strengths and weaknesses",
+    "category": "intrapersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 22,
+  "fields": {
+    "question": "I prefer working independently",
+    "category": "intrapersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 23,
+  "fields": {
+    "question": "I reflect on my decisions",
+    "category": "intrapersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 24,
+  "fields": {
+    "question": "I set personal goals",
+    "category": "intrapersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 25,
+  "fields": {
+    "question": "I am self-motivated",
+    "category": "intrapersonal"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 26,
+  "fields": {
+    "question": "I enjoy being in nature",
+    "category": "naturalist"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 27,
+  "fields": {
+    "question": "I am interested in plants and animals",
+    "category": "naturalist"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 28,
+  "fields": {
+    "question": "I like environmental topics",
+    "category": "naturalist"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 29,
+  "fields": {
+    "question": "I observe natural patterns",
+    "category": "naturalist"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 30,
+  "fields": {
+    "question": "I enjoy outdoor activities",
+    "category": "naturalist"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 31,
+  "fields": {
+    "question": "I enjoy physical activities or sports",
+    "category": "bodily"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 32,
+  "fields": {
+    "question": "I learn better by doing",
+    "category": "bodily"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 33,
+  "fields": {
+    "question": "I have good coordination",
+    "category": "bodily"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 34,
+  "fields": {
+    "question": "I like hands-on work",
+    "category": "bodily"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 35,
+  "fields": {
+    "question": "I enjoy building or creating things",
+    "category": "bodily"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 36,
+  "fields": {
+    "question": "I enjoy listening to music",
+    "category": "musical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 37,
+  "fields": {
+    "question": "I can recognize rhythms easily",
+    "category": "musical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 38,
+  "fields": {
+    "question": "I like singing or playing instruments",
+    "category": "musical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 39,
+  "fields": {
+    "question": "I remember things through music",
+    "category": "musical"
+  }
+},
+{
+  "model": "api.question",
+  "pk": 40,
+  "fields": {
+    "question": "I am sensitive to sounds",
+    "category": "musical"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 1,
+  "fields": {
+    "name": "Doctor",
+    "description": "Medical professional who diagnoses and treats patients",
+    "courses": "MBBS, BDS,BAMS, BHMS ....etc."
+  }
+},
+{
+  "model": "api.career",
+  "pk": 2,
+  "fields": {
+    "name": "Engineer",
+    "description": "Works in designing, building, and maintaining systems.",
+    "courses": "B.Tech,BE,Diploma,M.Tech"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 3,
+  "fields": {
+    "name": "Teacher",
+    "description": "Educates students and helps in academic development.",
+    "courses": "B.Ed,BA,MA,M.Ed"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 4,
+  "fields": {
+    "name": "Data Scientist",
+    "description": "Analyzes data to extract insights using AI and statistics.",
+    "courses": "BSc Computer Science, MSc Data Science,AI,Machine Learning"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 5,
+  "fields": {
+    "name": "Software Developer",
+    "description": "Builds applications, websites, and software systems.",
+    "courses": "B.Tech CS, BCA,MCA"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 6,
+  "fields": {
+    "name": "Lawyer",
+    "description": "Provides legal advice and represents clients in court.",
+    "courses": "LLB, BA LLB, LLM"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 7,
+  "fields": {
+    "name": "Accountant",
+    "description": "Manages financial records and taxation.",
+    "courses": "B.Com,M.Com,CA"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 8,
+  "fields": {
+    "name": "Physical Therapist",
+    "description": "Helps patients recover movement and reduce pain.",
+    "courses": "BPT,MPT"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 9,
+  "fields": {
+    "name": "Architect",
+    "description": "Designs buildings and structures.",
+    "courses": "B.Arch,M.Arch"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 10,
+  "fields": {
+    "name": "Journalist",
+    "description": "Reports news and writes for media",
+    "courses": "BA Journalism,Mass Communication"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 11,
+  "fields": {
+    "name": "Psychologist",
+    "description": "Studies human behavior and mental health",
+    "courses": "BA Psychology,MA Psychology"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 12,
+  "fields": {
+    "name": "Graphic Designer",
+    "description": "Creates visual content and designs",
+    "courses": "B.Des,Graphic Design Courses"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 13,
+  "fields": {
+    "name": "Musician",
+    "description": "Creates and performs music",
+    "courses": "Bachelor of Music,Diploma in Music"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 14,
+  "fields": {
+    "name": "Sports Person",
+    "description": "Professional athlete in sports",
+    "courses": "Sports Training,Diploma in Physical Education"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 15,
+  "fields": {
+    "name": "Environmental Scientist",
+    "description": "Studies environment and sustainability.",
+    "courses": "BSc Environmental Science,MSc Environmental Science"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 16,
+  "fields": {
+    "name": "Business Analyst",
+    "description": "Analyzes business data and improves processes",
+    "courses": ": BBA,MBA,Business Analytics"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 17,
+  "fields": {
+    "name": "Marketing Manager",
+    "description": "Promotes products and manages marketing strategies",
+    "courses": "BBA,MBA Marketing"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 18,
+  "fields": {
+    "name": "Civil Engineer",
+    "description": "Works on construction and infrastructure projects",
+    "courses": "B.Tech Civil,BE Civil"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 19,
+  "fields": {
+    "name": "Mechanical Engineer",
+    "description": "Designs machines and mechanical systems",
+    "courses": "B.Tech Mechanical,BE Mechanical"
+  }
+},
+{
+  "model": "api.career",
+  "pk": 20,
+  "fields": {
+    "name": "Electrical Engineer",
+    "description": "Works with electrical systems and circuits",
+    "courses": "B.Tech Electrical,BE Electrical"
+  }
+},
+{
+  "model": "api.stream",
+  "pk": 1,
+  "fields": {
+    "name": "Science",
+    "description": "Best for students strong in logical thinking, problem solving, and analytical skills. Suitable for engineering, medical, and technical careers.",
+    "min_logical": 15,
+    "min_linguistic": 5,
+    "min_spatial": 10,
+    "min_interpersonal": 5,
+    "min_intrapersonal": 5,
+    "min_naturalist": 0,
+    "min_bodily": 0,
+    "min_musical": 0,
+    "careers": [
+      1,
+      2,
+      4,
+      5,
+      8,
+      15,
+      18,
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "api.stream",
+  "pk": 2,
+  "fields": {
+    "name": "Arts",
+    "description": "Best for students interested in communication, creativity, social sciences, and humanities.",
+    "min_logical": 0,
+    "min_linguistic": 15,
+    "min_spatial": 5,
+    "min_interpersonal": 10,
+    "min_intrapersonal": 10,
+    "min_naturalist": 0,
+    "min_bodily": 0,
+    "min_musical": 0,
+    "careers": [
+      3,
+      6,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "api.stream",
+  "pk": 3,
+  "fields": {
+    "name": "Commerce",
+    "description": "Best for students interested in business, finance, and management.",
+    "min_logical": 10,
+    "min_linguistic": 10,
+    "min_spatial": 5,
+    "min_interpersonal": 5,
+    "min_intrapersonal": 5,
+    "min_naturalist": 0,
+    "min_bodily": 0,
+    "min_musical": 0,
+    "careers": [
+      7,
+      16,
+      17
+    ]
+  }
+},
+{
+  "model": "api.stream",
+  "pk": 4,
+  "fields": {
+    "name": "Creative",
+    "description": "Best for students with strong imagination, design, and artistic skills.",
+    "min_logical": 0,
+    "min_linguistic": 5,
+    "min_spatial": 15,
+    "min_interpersonal": 5,
+    "min_intrapersonal": 5,
+    "min_naturalist": 0,
+    "min_bodily": 0,
+    "min_musical": 5,
+    "careers": [
+      9,
+      12,
+      13,
+      14
+    ]
+  }
+}
+]
