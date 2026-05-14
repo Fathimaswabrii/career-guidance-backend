@@ -147,7 +147,7 @@
   "model": "api.question",
   "pk": 19,
   "fields": {
-    "question": "I understand others’ emotions easily",
+    "question": "I understand othersï¿½ emotions easily",
     "category": "interpersonal"
   }
 },
